@@ -77,11 +77,11 @@ export default <VdoingThemeConfig>{
         title: "GitHub",
         link: "https://github.com/ZhuHR-57",
       },
-      {
-        iconClass: "icon-youjian",
-        title: "发邮件",
-        link: "haorongzhu7@gmail.com",
-      },
+      // {
+      //   iconClass: "icon-youjian",
+      //   title: "发邮件",
+      //   link: "haorongzhu7@gmail.com",
+      // },
     ],
   },
   footer: {
