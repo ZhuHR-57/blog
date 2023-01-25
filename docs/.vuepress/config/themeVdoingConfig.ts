@@ -62,25 +62,25 @@ export default <VdoingThemeConfig>{
   social: {
     // iconfontCssFile: '//at.alicdn.com/t/font_1678482_u4nrnp8xp6g.css', // 可选，阿里图标库在线css文件地址，对于主题没有的图标可自由添加
     icons: [
-      {
-        iconClass: "icon-QQ",
-        title: "QQ",
-        link: "/assets/html/qq-groups.html",
-      },
-      {
-        iconClass: "icon-bilibili",
-        title: "哔哩哔哩",
-        link: "https://space.bilibili.com/28474682",
-      },
+      // {
+      //   iconClass: "icon-QQ",
+      //   title: "QQ",
+      //   link: "/assets/html/qq-groups.html",
+      // },
+      // {
+      //   iconClass: "icon-bilibili",
+      //   title: "哔哩哔哩",
+      //   link: "https://space.bilibili.com/28474682",
+      // },
       {
         iconClass: "icon-github",
         title: "GitHub",
-        link: "https://github.com/u2sb/vuepress-theme-vdoing-template",
+        link: "https://github.com/ZhuHR-57",
       },
       {
         iconClass: "icon-youjian",
         title: "发邮件",
-        link: "mailto:xxwhite@foxmail.com",
+        link: "haorongzhu7@gmail.com",
       },
     ],
   },
@@ -88,9 +88,7 @@ export default <VdoingThemeConfig>{
     // 页脚信息, 请根据实际情况修改, 删掉不需要的部分
     createYear: 2022, // 博客创建年份
     copyrightInfo: `
-      <a href='https://blog.xxwhite.com' target='_blank'>MonoLogueChi</a> | <a href='https://creativecommons.org/licenses/by-nc-sa/4.0/' rel='external nofollow' target='_blank'>CC BY-NC-SA 4.0</a>
-      <br>
-      <a href="http://beian.miit.gov.cn/" target="_blank">蒙ICP备12345678号-1</a>
+      <a href='https://github.com/ZhuHR-57' target='_blank'>Lido</a>
     `, // 博客版权信息，支持a标签
   },
 };

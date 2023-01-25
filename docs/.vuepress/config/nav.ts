@@ -5,41 +5,67 @@ import { NavItem } from "vuepress/config";
 export default <Array<NavItem>>[
   { text: "Home", link: "/" },
   {
-    text: "配置",
+    text: "Golang",
     items: [
       {
         text: "项目配置",
         link: "/start/",
       },
+    ],
+  },
+  {
+    text: "Python",
+    items: [
       {
-        text: "部署",
-        link: "/deploy/",
-      },
-      {
-        text: "更多参考",
-        link: "/more/",
+        text: "项目配置",
+        link: "/start/",
       },
     ],
   },
   {
-    text: "友情链接",
+    text: "数据库",
     items: [
       {
-        text: "vuepress",
-        link: "https://vuepress.vuejs.org/",
-      },
-      {
-        text: "vuepress-theme-vdoing",
-        link: "https://doc.xugaoyi.com/",
-      },
-      {
-        text: "U2SB",
-        link: "https://www.u2sb.com/",
-      },
-      {
-        text: "MonoLogueChi",
-        link: "https://blog.xxwhite.com/",
+        text: "项目配置",
+        link: "/start/",
       },
     ],
   },
+  {
+    text: "Linux",
+    items: [
+      {
+        text: "项目配置",
+        link: "/start/",
+      },
+    ],
+  },
+  {
+    text: "容器",
+    items: [
+      {
+        text: "项目配置",
+        link: "/start/",
+      },
+    ],
+  },
+  {
+    text: "前端",
+    items: [
+      {
+        text: "项目配置",
+        link: "/start/",
+      },
+    ],
+  },
+  {
+    text: "算法",
+    items: [
+      {
+        text: "项目配置",
+        link: "/start/",
+      },
+    ],
+  },
+  { text: "简历", link: "/" },
 ];
