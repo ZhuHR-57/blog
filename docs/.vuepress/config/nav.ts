@@ -6,10 +6,13 @@ export default <Array<NavItem>>[
   { text: "Home", link: "/" },
   {
     text: "Golang",
+    link: "/go/",
     items: [
       {
-        text: "项目配置",
-        link: "/start/",
+        text: "框架",
+        items:[
+          {text:"Gin",link:"/pages/3e14ca/"}
+        ]
       },
     ],
   },
@@ -67,5 +70,6 @@ export default <Array<NavItem>>[
       },
     ],
   },
+  {text: '归档', link: '/archives/'},
   { text: "简历", link: "/" },
 ];
