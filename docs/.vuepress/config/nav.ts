@@ -14,59 +14,11 @@ export default <Array<NavItem>>[
           {text:"Gin",link:"/pages/3e14ca/"}
         ]
       },
-    ],
-  },
-  {
-    text: "Python",
-    items: [
       {
-        text: "项目配置",
-        link: "/start/",
-      },
-    ],
-  },
-  {
-    text: "数据库",
-    items: [
-      {
-        text: "项目配置",
-        link: "/start/",
-      },
-    ],
-  },
-  {
-    text: "Linux",
-    items: [
-      {
-        text: "项目配置",
-        link: "/start/",
-      },
-    ],
-  },
-  {
-    text: "容器",
-    items: [
-      {
-        text: "项目配置",
-        link: "/start/",
-      },
-    ],
-  },
-  {
-    text: "前端",
-    items: [
-      {
-        text: "项目配置",
-        link: "/start/",
-      },
-    ],
-  },
-  {
-    text: "算法",
-    items: [
-      {
-        text: "项目配置",
-        link: "/start/",
+        text: "Demo",
+        items:[
+          {text:"文件传输（局域网）",link:"/pages/27351f/"},
+        ]
       },
     ],
   },
