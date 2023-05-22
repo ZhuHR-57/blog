@@ -15,9 +15,10 @@ export default <Array<NavItem>>[
         ]
       },
       {
-        text: "Demo",
+        text: "Tools",
         items:[
           {text:"文件传输（局域网）",link:"/pages/27351f/"},
+          {text:"自动提交Github",link:"/pages/27352f/"},
         ]
       },
     ],
