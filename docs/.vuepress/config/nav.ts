@@ -23,6 +23,18 @@ export default <Array<NavItem>>[
       },
     ],
   },
+  {
+    text: "算法",
+    link: "/algorithm/",
+    items: [
+      {
+        text: "算法打卡",
+        items:[
+          {text:"Day01-数组",link:"/pages/8aab7b/"}
+        ]
+      },
+    ],
+  },
   {text: '归档', link: '/archives/'},
-  { text: "简历", link: "/" },
+  // { text: "简历", link: "/" },
 ];
