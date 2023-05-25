@@ -30,7 +30,8 @@ export default <Array<NavItem>>[
       {
         text: "算法打卡",
         items:[
-          {text:"Day01-数组",link:"/pages/8aab7b/"}
+          {text:"Day01-数组",link:"/pages/8aab7b/"},
+          {text:"Day02-数组",link:"/pages/f2d3aa/"},
         ]
       },
     ],
