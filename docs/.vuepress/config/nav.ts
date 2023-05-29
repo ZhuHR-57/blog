@@ -34,6 +34,9 @@ export default <Array<NavItem>>[
           {text:"Day01-数组",link:"/pages/8aab7b/"},
           {text:"Day02-数组",link:"/pages/f2d3aa/"},
           {text:"Day03-链表",link:"/pages/2c5009/"},
+          {text:"Day04-链表",link:"/pages/115af7/"},
+          {text:"Day05-哈希",link:"/pages/311b6b/"},
+          {text:"Day06-哈希",link:"/pages/5d4a2f/"},
         ]
       },
     ],
