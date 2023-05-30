@@ -2,4 +2,7 @@
 /dist
 /.vscode
 *.log
+/.git
+/.github
+blog.exe
 
