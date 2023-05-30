@@ -9,7 +9,7 @@
     <meta name="description" content="Hello Bugs!">
     <meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
     
-    <link rel="preload" href="/blog/assets/css/1.styles.7a69d2c1.css" as="style"><link rel="preload" href="/blog/assets/js/app.00ba6e38.js" as="script"><link rel="preload" href="/blog/assets/js/11.38daf823.js" as="script"><link rel="preload" href="/blog/assets/js/15.1932e70b.js" as="script">
+    <link rel="preload" href="/blog/assets/css/1.styles.7a69d2c1.css" as="style"><link rel="preload" href="/blog/assets/js/app.2f2fa9f5.js" as="script"><link rel="preload" href="/blog/assets/js/11.38daf823.js" as="script"><link rel="preload" href="/blog/assets/js/15.1932e70b.js" as="script">
     <link rel="stylesheet" href="/blog/assets/css/1.styles.7a69d2c1.css">
   </head>
   <body class="theme-mode-light">
@@ -162,7 +162,7 @@ SET GOOS=linux
 SET GOARCH=amd64
 go build filename.go -ldflags &quot;-w -s&quot;
 </code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br><span class="line-number">5</span><br><span class="line-number">6</span><br><span class="line-number">7</span><br><span class="line-number">8</span><br><span class="line-number">9</span><br><span class="line-number">10</span><br><span class="line-number">11</span><br></div></div><div class="language- line-numbers-mode"><pre class="language-text"><code>chomd 777 xxx
-</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h2 id="说明"><a href="#说明" class="header-anchor">#</a> 说明</h2> <ol><li><p>以上两种解决方法只能临时修改 go 的环境变量，重启 Goland 或者重启 cmd 终端后失效。</p></li> <li><p>执行 go env -w GOOS=linux 可以修改 go 的环境变量 GOOS，且当重启 Goland 后或者打开其他项目后都有效。但是在 Git Bash 下执行 chmod 777 xx 赋予文件 xx 可执行权限失败。</p></li> <li><p>如果按上述方式永久修改了 GOOS，使用 Goland 的 run 命令直接运行程序会失败，即使临时设置 export GOOS=windows 也不起作用，只能通过 go env -w GOOS=windows 修改 GOOS 后才能在 Goland 中直接运行程序。</p></li></ol> <p>终上所述，在 windows 系统的 Goland 中编译 Linux 的可执行程序时，<strong>建议临时修改</strong> export GOOS=linux，而<strong>不是</strong>使用 go env -w GOOS=linux 永久修改。</p></div></div> <!----> <div class="page-edit"><!----> <div class="tags"><a href="/blog/tags/?tag=go-tools" title="标签">#go-tools</a></div> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">5/30/2023, 3:40:26 PM</span></div></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><a href="/blog/pages/3e14ca/" class="page-nav-centre page-nav-centre-prev"><div class="tooltip">脚手架</div></a> <a href="/blog/pages/27352f/" class="page-nav-centre page-nav-centre-next"><div class="tooltip">自动提交Github</div></a></div> <div class="page-nav"><p class="inner"><span class="prev">
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br></div></div><h2 id="说明"><a href="#说明" class="header-anchor">#</a> 说明</h2> <ol><li><p>以上两种解决方法只能临时修改 go 的环境变量，重启 Goland 或者重启 cmd 终端后失效。</p></li> <li><p>执行 go env -w GOOS=linux 可以修改 go 的环境变量 GOOS，且当重启 Goland 后或者打开其他项目后都有效。但是在 Git Bash 下执行 chmod 777 xx 赋予文件 xx 可执行权限失败。</p></li> <li><p>如果按上述方式永久修改了 GOOS，使用 Goland 的 run 命令直接运行程序会失败，即使临时设置 export GOOS=windows 也不起作用，只能通过 go env -w GOOS=windows 修改 GOOS 后才能在 Goland 中直接运行程序。</p></li></ol> <p>终上所述，在 windows 系统的 Goland 中编译 Linux 的可执行程序时，<strong>建议临时修改</strong> export GOOS=linux，而<strong>不是</strong>使用 go env -w GOOS=linux 永久修改。</p></div></div> <!----> <div class="page-edit"><!----> <div class="tags"><a href="/blog/tags/?tag=go-tools" title="标签">#go-tools</a></div> <div class="last-updated"><span class="prefix">上次更新:</span> <span class="time">5/30/2023, 3:49:53 PM</span></div></div> <div class="page-nav-wapper"><div class="page-nav-centre-wrap"><a href="/blog/pages/3e14ca/" class="page-nav-centre page-nav-centre-prev"><div class="tooltip">脚手架</div></a> <a href="/blog/pages/27352f/" class="page-nav-centre page-nav-centre-next"><div class="tooltip">自动提交Github</div></a></div> <div class="page-nav"><p class="inner"><span class="prev">
         ←
         <a href="/blog/pages/3e14ca/" class="prev">脚手架</a></span> <span class="next"><a href="/blog/pages/27352f/">自动提交Github</a>→
       </span></p></div></div></div> <!----></main></div> <div class="footer"><div class="icons"><a href="https://github.com/ZhuHR-57" title="GitHub" target="_blank" class="iconfont icon-github"></a></div> 
@@ -180,6 +180,6 @@ go build filename.go -ldflags &quot;-w -s&quot;
         </li><li class="iconfont icon-yuedu">
           阅读模式
         </li></ul></div></div> <!----> <!----> <!----></div><div class="global-ui"></div></div>
-    <script src="/blog/assets/js/app.00ba6e38.js" defer></script><script src="/blog/assets/js/11.38daf823.js" defer></script><script src="/blog/assets/js/15.1932e70b.js" defer></script>
+    <script src="/blog/assets/js/app.2f2fa9f5.js" defer></script><script src="/blog/assets/js/11.38daf823.js" defer></script><script src="/blog/assets/js/15.1932e70b.js" defer></script>
   </body>
 </html>
