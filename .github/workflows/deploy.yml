@@ -27,8 +27,8 @@ jobs:
           # cache: "yarn"
 
         # 构建
-      - name: Build
-        run: |
+      # - name: Build
+      #   run: |
           # yarn install
           # yarn build
 
