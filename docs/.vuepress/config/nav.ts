@@ -30,6 +30,18 @@ export default <Array<NavItem>>[
     ],
   },
   {
+    text: "CPP",
+    link: "/cpp/",
+    items: [
+      {
+        text: "误区总结",
+        items:[
+          {text:"字符串与字符初始化及转换.md",link:"/pages/cf07c3/"}
+        ]
+      },
+    ],
+  },
+  {
     text: "算法",
     link: "/algorithm/",
     items: [
@@ -45,18 +57,6 @@ export default <Array<NavItem>>[
           {text:"Day06-哈希",link:"/pages/5d4a2f/"},
           {text:"Day07-字符串",link:"/pages/26eaf0/"},
           {text:"Day08-字符串",link:"/pages/8ef17c/"},
-        ]
-      },
-    ],
-  },
-  {
-    text: "Golang",
-    link: "/go/",
-    items: [
-      {
-        text: "误区总结",
-        items:[
-          {text:"字符串与字符初始化及转换.md",link:"/pages/cf07c3/"}
         ]
       },
     ],
