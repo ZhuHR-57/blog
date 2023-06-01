@@ -49,6 +49,18 @@ export default <Array<NavItem>>[
       },
     ],
   },
+  {
+    text: "Golang",
+    link: "/go/",
+    items: [
+      {
+        text: "误区总结",
+        items:[
+          {text:"字符串与字符初始化及转换.md",link:"/pages/cf07c3/"}
+        ]
+      },
+    ],
+  },
   {text: '归档', link: '/archives/'},
   // { text: "简历", link: "/" },
 ];
