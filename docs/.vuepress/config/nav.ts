@@ -15,10 +15,16 @@ export default <Array<NavItem>>[
         ]
       },
       {
-        text: "Tools",
+        text: "小工具",
         items:[
           {text:"文件传输（局域网）",link:"/pages/27351f/"},
           {text:"自动提交Github",link:"/pages/27352f/"},
+        ]
+      },
+      {
+        text: "深入Go",
+        items:[
+          {text:"01.字符串",link:"/pages/b6ba67/"}
         ]
       },
     ],
@@ -37,6 +43,7 @@ export default <Array<NavItem>>[
           {text:"Day04-链表",link:"/pages/115af7/"},
           {text:"Day05-哈希",link:"/pages/311b6b/"},
           {text:"Day06-哈希",link:"/pages/5d4a2f/"},
+          {text:"Day07-字符串",link:"/pages/26eaf0/"},
         ]
       },
     ],
