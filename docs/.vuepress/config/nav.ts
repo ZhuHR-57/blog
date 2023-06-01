@@ -44,6 +44,7 @@ export default <Array<NavItem>>[
           {text:"Day05-哈希",link:"/pages/311b6b/"},
           {text:"Day06-哈希",link:"/pages/5d4a2f/"},
           {text:"Day07-字符串",link:"/pages/26eaf0/"},
+          {text:"Day08-字符串",link:"/pages/8ef17c/"},
         ]
       },
     ],
