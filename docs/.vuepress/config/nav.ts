@@ -24,7 +24,9 @@ export default <Array<NavItem>>[
       {
         text: "深入Go",
         items:[
-          {text:"01.字符串",link:"/pages/b6ba67/"}
+          {text:"01.string类型",link:"/pages/b6ba67/"},
+          {text:"02.slice类型",link:"/pages/5b42f7/"},
+          {text:"03.结构体和内存对齐",link:"/pages/20d234/"},
         ]
       },
     ],
@@ -57,6 +59,13 @@ export default <Array<NavItem>>[
           {text:"Day06-哈希",link:"/pages/5d4a2f/"},
           {text:"Day07-字符串",link:"/pages/26eaf0/"},
           {text:"Day08-字符串",link:"/pages/8ef17c/"},
+          {text:"Day09-栈与队列",link:"/pages/5b91fa/"},
+        ]
+      },
+      {
+        text: "经典算法",
+        items:[
+          {text:"字符",link:"/pages/d1dc4a/"}
         ]
       },
     ],
