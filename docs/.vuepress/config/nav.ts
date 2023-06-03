@@ -38,7 +38,7 @@ export default <Array<NavItem>>[
       {
         text: "误区总结",
         items:[
-          {text:"字符串与字符初始化及转换.md",link:"/pages/cf07c3/"}
+          {text:"字符串与字符初始化及转换",link:"/pages/cf07c3/"}
         ]
       },
     ],
@@ -50,16 +50,17 @@ export default <Array<NavItem>>[
       {
         text: "算法打卡",
         items:[
-          {text:"Day00-准备",link:"/pages/fc80dd/"},
-          {text:"Day01-数组",link:"/pages/8aab7b/"},
-          {text:"Day02-数组",link:"/pages/f2d3aa/"},
-          {text:"Day03-链表",link:"/pages/2c5009/"},
-          {text:"Day04-链表",link:"/pages/115af7/"},
-          {text:"Day05-哈希",link:"/pages/311b6b/"},
-          {text:"Day06-哈希",link:"/pages/5d4a2f/"},
-          {text:"Day07-字符串",link:"/pages/26eaf0/"},
+          // {text:"Day00-准备",link:"/pages/fc80dd/"},
+          // {text:"Day01-数组",link:"/pages/8aab7b/"},
+          // {text:"Day02-数组",link:"/pages/f2d3aa/"},
+          // {text:"Day03-链表",link:"/pages/2c5009/"},
+          // {text:"Day04-链表",link:"/pages/115af7/"},
+          // {text:"Day05-哈希",link:"/pages/311b6b/"},
+          // {text:"Day06-哈希",link:"/pages/5d4a2f/"},
+          // {text:"Day07-字符串",link:"/pages/26eaf0/"},
           {text:"Day08-字符串",link:"/pages/8ef17c/"},
           {text:"Day09-栈与队列",link:"/pages/5b91fa/"},
+          {text:"Day10-栈与队列",link:"/pages/51e036/"},
         ]
       },
       {
