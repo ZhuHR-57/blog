@@ -59,9 +59,11 @@ export default <Array<NavItem>>[
           // {text:"Day06-哈希",link:"/pages/5d4a2f/"},
           // {text:"Day07-字符串",link:"/pages/26eaf0/"},
           // {text:"Day08-字符串",link:"/pages/8ef17c/"},
-          {text:"Day09-栈与队列",link:"/pages/5b91fa/"},
-          {text:"Day10-栈与队列",link:"/pages/51e036/"},
+          // {text:"Day09-栈与队列",link:"/pages/5b91fa/"},
+          // {text:"Day10-栈与队列",link:"/pages/51e036/"},
           {text:"Day11-栈与队列",link:"/pages/9f1ed7/"},
+          {text:"Day12-二叉树",link:"/pages/e42f06/"},
+          {text:"Day13-二叉树",link:"/pages/e1103c/"},
         ]
       },
       {
