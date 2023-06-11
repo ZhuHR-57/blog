@@ -80,12 +80,12 @@ export default <Array<NavItem>>[
   },
   {
     text: "分享",
-    link: "/share/",
+    link: "/shares/",
     items: [
       {
         text: "有趣的库",
         items:[
-          {text:"ChatGPT提示",link:"/pages/68dc78/"}
+          {text:"ChatGPT提示",link:"/pages/68dc78/"},
         ]
       },
     ],
