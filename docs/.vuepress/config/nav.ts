@@ -88,6 +88,14 @@ export default <Array<NavItem>>[
           {text:"ChatGPT提示",link:"/pages/68dc78/"},
         ]
       },
+      {
+        text: "实用软件",
+        items:[
+          {text:"Windows",link:"/pages/5d207c/"},
+          {text:"Android",link:"/pages/7d7b4c/"},
+          {text:"Apple",link:"/pages/21b4f2/"},
+        ]
+      },
     ],
   },
   {text: '归档', link: '/archives/'},
