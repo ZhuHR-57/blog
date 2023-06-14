@@ -1,7 +1,7 @@
 ---
 home: true
 # heroImage: /img/web.png
-heroText: 记录、分享
+heroText: 记录 & 分享
 tagline: （若出现文章加载不出来，请刷新）
 # actionText: 立刻进入 →
 # actionLink: /start/

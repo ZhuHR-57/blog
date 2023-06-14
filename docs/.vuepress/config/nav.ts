@@ -64,9 +64,12 @@ export default <Array<NavItem>>[
           // {text:"Day11-栈与队列",link:"/pages/9f1ed7/"},
           // {text:"Day12-二叉树",link:"/pages/e42f06/"},
           // {text:"Day13-二叉树",link:"/pages/e1103c/"},
-          {text:"Day14-二叉树",link:"/pages/d2bfea/"},
-          {text:"Day15-二叉树",link:"/pages/718929/"},
-          {text:"Day16-二叉树",link:"/pages/aa0545/"},
+          // {text:"Day14-二叉树",link:"/pages/d2bfea/"},
+          // {text:"Day15-二叉树",link:"/pages/718929/"},
+          // {text:"Day16-二叉树",link:"/pages/aa0545/"},
+          {text:"Day17-二叉树",link:"/pages/dc9ac8/"},
+          {text:"Day18-二叉树",link:"/pages/26e3ea/"},
+          {text:"Day19-二叉树",link:"/pages/45f404/"},
         ]
       },
       {
