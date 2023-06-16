@@ -68,9 +68,10 @@ export default <Array<NavItem>>[
           // {text:"Day15-二叉树",link:"/pages/718929/"},
           // {text:"Day16-二叉树",link:"/pages/aa0545/"},
           // {text:"Day17-二叉树",link:"/pages/dc9ac8/"},
-          {text:"Day18-二叉树",link:"/pages/26e3ea/"},
+          // {text:"Day18-二叉树",link:"/pages/26e3ea/"},
           {text:"Day19-二叉树",link:"/pages/45f404/"},
           {text:"Day20-二叉树",link:"/pages/25c17d/"},
+          {text:"Day21-回溯",link:"/pages/a70acb/"},
         ]
       },
       {
@@ -98,6 +99,12 @@ export default <Array<NavItem>>[
           {text:"Windows",link:"/pages/5d207c/"},
           {text:"Android",link:"/pages/7d7b4c/"},
           {text:"Apple",link:"/pages/21b4f2/"},
+        ]
+      },
+      {
+        text: "工具使用",
+        items:[
+          {text:"Git使用",link:"/pages/bf5ad3/"},
         ]
       },
     ],
