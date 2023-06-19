@@ -69,9 +69,11 @@ export default <Array<NavItem>>[
           // {text:"Day16-二叉树",link:"/pages/aa0545/"},
           // {text:"Day17-二叉树",link:"/pages/dc9ac8/"},
           // {text:"Day18-二叉树",link:"/pages/26e3ea/"},
-          {text:"Day19-二叉树",link:"/pages/45f404/"},
-          {text:"Day20-二叉树",link:"/pages/25c17d/"},
+          // {text:"Day19-二叉树",link:"/pages/45f404/"},
+          // {text:"Day20-二叉树",link:"/pages/25c17d/"},
           {text:"Day21-回溯",link:"/pages/a70acb/"},
+          {text:"Day22-回溯",link:"/pages/cedc16/"},
+          {text:"Day23-回溯",link:"/pages/7f73da/"},
         ]
       },
       {
