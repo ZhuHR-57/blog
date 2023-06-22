@@ -73,9 +73,10 @@ export default <Array<NavItem>>[
           // {text:"Day20-二叉树",link:"/pages/25c17d/"},
           // {text:"Day21-回溯",link:"/pages/a70acb/"},
           // {text:"Day22-回溯",link:"/pages/cedc16/"},
-          {text:"Day23-回溯",link:"/pages/7f73da/"},
+          // {text:"Day23-回溯",link:"/pages/7f73da/"},
           {text:"Day24-回溯",link:"/pages/f279ae/"},
           {text:"Day25-回溯",link:"/pages/486f1f/"},
+          {text:"Day26-回溯",link:"/pages/959586/"},
         ]
       },
       {
