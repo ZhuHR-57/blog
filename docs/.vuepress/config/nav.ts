@@ -78,6 +78,7 @@ export default <Array<NavItem>>[
           {text:"Day25-回溯",link:"/pages/486f1f/"},
           {text:"Day26-回溯",link:"/pages/959586/"},
           {text:"Day27-贪心",link:"/pages/d2ffc3/"},
+          {text:"Day28-贪心",link:"/pages/ab0893/"},
         ]
       },
       {
