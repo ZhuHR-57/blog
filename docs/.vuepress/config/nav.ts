@@ -75,10 +75,11 @@ export default <Array<NavItem>>[
           // {text:"Day22-回溯",link:"/pages/cedc16/"},
           // {text:"Day23-回溯",link:"/pages/7f73da/"},
           // {text:"Day24-回溯",link:"/pages/f279ae/"},
-          {text:"Day25-回溯",link:"/pages/486f1f/"},
-          {text:"Day26-回溯",link:"/pages/959586/"},
+          // {text:"Day25-回溯",link:"/pages/486f1f/"},
+          // {text:"Day26-回溯",link:"/pages/959586/"},
           {text:"Day27-贪心",link:"/pages/d2ffc3/"},
           {text:"Day28-贪心",link:"/pages/ab0893/"},
+          {text:"Day29-回顾数组与链表",link:"/pages/d3c1ac/"},
         ]
       },
       {
