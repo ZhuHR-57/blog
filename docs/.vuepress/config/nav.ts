@@ -77,9 +77,13 @@ export default <Array<NavItem>>[
           // {text:"Day24-回溯",link:"/pages/f279ae/"},
           // {text:"Day25-回溯",link:"/pages/486f1f/"},
           // {text:"Day26-回溯",link:"/pages/959586/"},
-          {text:"Day27-贪心",link:"/pages/d2ffc3/"},
-          {text:"Day28-贪心",link:"/pages/ab0893/"},
-          {text:"Day29-回顾数组与链表",link:"/pages/d3c1ac/"},
+          // {text:"Day27-贪心",link:"/pages/d2ffc3/"},
+          // {text:"Day28-贪心",link:"/pages/ab0893/"},
+          // {text:"Day29-回顾数组与链表",link:"/pages/d3c1ac/"},
+          // {text:"Day30-贪心",link:"/pages/c5a8e1/"},
+          {text:"Day31-贪心",link:"/pages/1a7442/"},
+          {text:"Day32-贪心",link:"/pages/6b127c/"},
+          {text:"Day33-贪心",link:"/pages/4a5ab4/"},
         ]
       },
       {
