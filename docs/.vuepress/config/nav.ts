@@ -81,9 +81,10 @@ export default <Array<NavItem>>[
           // {text:"Day28-贪心",link:"/pages/ab0893/"},
           // {text:"Day29-回顾数组与链表",link:"/pages/d3c1ac/"},
           // {text:"Day30-贪心",link:"/pages/c5a8e1/"},
-          {text:"Day31-贪心",link:"/pages/1a7442/"},
+          // {text:"Day31-贪心",link:"/pages/1a7442/"},
           {text:"Day32-贪心",link:"/pages/6b127c/"},
           {text:"Day33-贪心",link:"/pages/4a5ab4/"},
+          {text:"Day34-动态规划",link:"/pages/ba14da/"},
         ]
       },
       {
