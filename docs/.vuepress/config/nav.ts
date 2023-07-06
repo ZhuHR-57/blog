@@ -84,9 +84,11 @@ export default <Array<NavItem>>[
           // {text:"Day31-贪心",link:"/pages/1a7442/"},
           // {text:"Day32-贪心",link:"/pages/6b127c/"},
           // {text:"Day33-贪心",link:"/pages/4a5ab4/"},
-          {text:"Day34-动态规划",link:"/pages/ba14da/"},
-          {text:"Day35-动态规划",link:"/pages/504b88/"},
+          // {text:"Day34-动态规划",link:"/pages/ba14da/"},
+          // {text:"Day35-动态规划",link:"/pages/504b88/"},
           {text:"Day36-动态规划",link:"/pages/d6a904/"},
+          {text:"Day37-动态规划",link:"/pages/257a08/"},
+          {text:"Day38-动态规划",link:"/pages/fc2b28/"},
         ]
       },
       {
