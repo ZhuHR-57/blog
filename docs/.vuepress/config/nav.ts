@@ -125,6 +125,8 @@ export default <Array<NavItem>>[
           {text:"Windows",link:"/pages/5d207c/"},
           {text:"Android",link:"/pages/7d7b4c/"},
           {text:"Apple",link:"/pages/21b4f2/"},
+          {text:"Linux",link:"/pages/8f5ca5/"},
+          {text:"Web",link:"/pages/6aa419/"},
         ]
       },
       {
