@@ -135,6 +135,12 @@ export default <Array<NavItem>>[
           {text:"Git使用",link:"/pages/bf5ad3/"},
         ]
       },
+      {
+        text: "English helper",
+        items:[
+          {text:"English Grammar",link:"/pages/08fa35/"},
+        ]
+      },
     ],
   },
   {text: '归档', link: '/archives/'},
