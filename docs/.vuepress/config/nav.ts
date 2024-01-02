@@ -134,6 +134,9 @@ export default <Array<NavItem>>[
         text: "工具使用",
         items:[
           {text:"Git使用",link:"/pages/bf5ad3/"},
+          {text:"搜索引擎",link:"/pages/0eb15d/"},
+          {text:"MD编辑器",link:"/pages/7f788b/"},
+          {text:"JetBrain系列IDE配置",link:"/pages/545a3e/"},
         ]
       },
       {
