@@ -126,7 +126,7 @@ var themeVdoingConfig_default = {
     link: "https://zhuhr-57.github.io/blog/"
   },
   blogger: {
-    avatar: "https://s3.bmp.ovh/imgs/2023/02/04/fce81e73038738f0.jpg",
+    avatar: "h/assets/img/logoo.jpeg",
     name: "Lido",
     slogan: "\u6162\u6162\u4E00\u70B9\u4E00\u70B9\u505A\u7684\u66F4\u597D"
   },

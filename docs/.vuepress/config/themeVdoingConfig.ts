@@ -53,7 +53,7 @@ export default <VdoingThemeConfig>{
   // 博主信息，显示在首页侧边栏
   blogger: {
     avatar:
-      "https://s3.bmp.ovh/imgs/2023/02/04/fce81e73038738f0.jpg",
+      "/assets/img/logoo.jpeg",
     name: "Lido",
     slogan: "慢慢一点一点做的更好",
   },
